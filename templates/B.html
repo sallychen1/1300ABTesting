@@ -70,6 +70,14 @@
     <!-- If you add any new buttons, you need to update the javascript file, for
     corresponding button id, so that clicks of that button could be logged -->
     <div class="content-pane">
+        <div id="cart-wrapper">
+            <a onclick='navigateToCheckout()'>
+            <span id="cart" class="fa-stack fa-2x has-badge" data-count="0">
+              <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+              <i class="fa fa-shopping-cart fa-stack-2x red-cart"></i>
+            </span> CART
+          </a>
+          </div>
       <div class="vendor-wrapper" id="mp1">
         <img src="../static/coppercombo.png" class="vendor-photo" />
         <button class="vendor-book-button btn btn-primary" type="submit" id="mp1">
@@ -111,14 +119,14 @@
         </p>
       </div>
 
-      <div id="cart-wrapper">
+      <!-- <div id="cart-wrapper">
         <a onclick='navigateToCheckout()'>
         <span id="cart" class="fa-stack fa-2x has-badge" data-count="0">
           <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
           <i class="fa fa-shopping-cart fa-stack-2x red-cart"></i>
         </span> CART
       </a>
-      </div>
+      </div> -->
     </div>
 
     <!-- DO NOT EDIT below this line!! -->
